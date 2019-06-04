@@ -1,0 +1,8 @@
+{   
+    
+    "serialport baudrate": 4800,
+    "serialport databits": 8,
+    "serialport parity": "none", 
+    "serialport stop": 1
+   
+}

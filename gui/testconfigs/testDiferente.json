@@ -1,0 +1,23 @@
+{
+  "apn": "ceyd.vpnantel",
+  "bandas": "900,1800,2100",
+  "keep alive interval": 10,
+  "keep alive ip": "192.168.1.2",
+  "keep alive port": 234,
+  "lastgasp number": "11123",
+  "netmode": "dualmode(gsm)",
+  "programed reset minutes": 721,
+  "serialport baudrate": 4800,
+  "serialport databits": 7,
+  "serialport parity": "even",
+  "serialport stop": 2,
+  "surelink backup ip": "192.168.2.3",
+  "surelink default ip": "192.168.2.3",
+  "surelink period": 12,
+  "surelink retries": 12,
+  "uteping interval minutes": 10,
+  "uteping ip": "192.168.209.3",
+  "whitelist 1": "192.168.209.3",
+  "whitelist 2": "n.n.n.n",
+  "whitelist 3": "n.n.n.n"
+}

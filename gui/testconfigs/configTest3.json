@@ -1,0 +1,7 @@
+{   
+   
+ "keep alive server ip": "192.168.209.3",
+ "keep alive interval": 1,
+ "keep alive port":12345
+   
+}

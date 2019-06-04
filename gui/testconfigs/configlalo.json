@@ -1,0 +1,13 @@
+{
+  "apn": "comstc01.vpnantel",
+  "netmode": "dualmode(umts)",
+  "programed reset minutes": 720,
+  "serialport baudrate": 9600,
+  "serialport databits": 8,
+  "serialport parity": "none",
+  "serialport stop": 1,
+  "surelink backup ip": "0.0.0.0",
+  "surelink default ip": "0.0.0.0",
+  "surelink period": 10,
+  "surelink retries": 10
+}
