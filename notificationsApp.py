@@ -1,4 +1,4 @@
-from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2 import QtWidgets
 from gui.utenotificationviewer import NotificationMainWindow
 
 if __name__ == '__main__':

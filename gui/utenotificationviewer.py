@@ -1,12 +1,8 @@
 from PySide2 import QtCore, QtGui, QtWidgets
-#import application_rc
-import time
 import datetime
 import json
 from driver.utenotificationclient import UteNotificationClient 
 from gui.notificationTargetConfig import NotificationConfigDialog
-import queue
-import threading
 
 class HistoryRequestDialog(QtWidgets.QDialog):
    
@@ -91,9 +87,6 @@ class NotificationMainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(NotificationMainWindow, self).__init__()
 
-       # self.curFile = ''
-
-        
         mainLayout = QtWidgets.QVBoxLayout()
         
         self.createNotificationBox() 

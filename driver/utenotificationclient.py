@@ -1,6 +1,5 @@
 import json
 import socket
-import threading
 import time
 from PySide2 import QtCore
 import queue
