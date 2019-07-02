@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/notification-server.iml" filepath="$PROJECT_DIR$/.idea/notification-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../operations-app/.idea/operations-app.iml" filepath="$PROJECT_DIR$/../operations-app/.idea/operations-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../server-udp/.idea/server-udp.iml" filepath="$PROJECT_DIR$/../server-udp/.idea/server-udp.iml" />
     </modules>
   </component>
 </project>

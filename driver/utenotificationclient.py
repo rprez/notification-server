@@ -18,8 +18,8 @@ class UteNotificationClient(threading.Thread):
     
     def __init__(self):
         threading.Thread.__init__(self)
-        self.port=22222
-        self.host="targetHost"
+        self.port=15353
+        self.host="localhost"
         self.sock=None
         
         self.dataStream=""
