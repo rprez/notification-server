@@ -107,12 +107,7 @@ class NotificationMainWindow(QtWidgets.QMainWindow):
         self.createToolBars()
         self.createStatusBar()
 
-      #  self.readSettings()
-
-        #self.textEdit.document().contentsChanged.connect(self.documentWasModified)
-
-     #   self.setCurrentFile('')
-        self.setUnifiedTitleAndToolBarOnMac(True) 
+        self.setUnifiedTitleAndToolBarOnMac(True)
 
         self.createNotificationClient()
         self.noti=NotificationConfigDialog()
@@ -124,10 +119,7 @@ class NotificationMainWindow(QtWidgets.QMainWindow):
         
         self.count=0
 
-        #history request
-       # self.historyRequest=HistoryRequestDialog()
-        
-    
+
     def updateSource(self,source):
         
         self.notiClient.updateTarget(source['target'], source['port'])
